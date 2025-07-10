@@ -11,12 +11,11 @@ REM Path to a Windows system DLL that contains various icons.
 REM 'imageres.dll' has many modern icons. 'shell32.dll' has older, more classic icons.
 REM You can change this number to pick a different icon.
 REM Common values:
-REM   - imageres.dll,100 (Generic folder icon)
-REM   - shell32.dll,15 (Gear icon, often used for settings)
-REM   - shell32.dll,3 (My Computer icon)
-set "iconSource=%SystemRoot%\System32\imageres.dll"
+REM   - imageres.dll,96
+REM   - shell32.dll,27 ( 112 / 215 )
+set "iconSource=%SystemRoot%\System32\shell32.dll"
 REM The index (number) of the icon within the specified DLL.
-set "iconIndex=96"
+set "iconIndex=215"
 
 set "TargetScreen=external"
 REM WakeUpMode, 0=enable wake events, 1=disable wake events
